@@ -1,5 +1,5 @@
 <?php
-$pattern = '/^[_a-z0-9].{6,}$/';
+$pattern = '/^[_a-z0-9]{6,}$/';
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $acc = $_REQUEST['account'];
 }
